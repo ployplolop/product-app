@@ -10,7 +10,7 @@ const fetchProducts = async () => {
   error.value = ''
 
   try {
-    const response = await fetch('https://kochchakorn.app.n8n.cloud/webhook/products')
+    const response = await fetch('https://kochchakorn.app.n8n.cloud/webhook/Products_67709956')
 
     if (!response.ok) {
       throw new Error(`HTTP error: ${response.status}`)
@@ -100,7 +100,7 @@ table {
 }
 
 thead {
-  background-color: #3498db;
+  background-color: #db8d34;
   color: #fff;
 }
 
